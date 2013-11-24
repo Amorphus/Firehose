@@ -4,6 +4,11 @@ class PicsController < ApplicationController
 		@pic = Pic.find(params[:id])
 	end
 
+	def destroy
+		Pic.destroy(params[:id])
+		redirect_to pics_path
+	end
+
 	def create
 		@pic = Pic.create( pic_params )
 		
