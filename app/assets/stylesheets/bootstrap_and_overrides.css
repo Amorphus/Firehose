@@ -46,7 +46,7 @@ label {
 .error {
 	color: red;
 	display:block;
-	font-weight: 600
+	font-weight: 600;
 	font-family: Helvetica Neue Light,Helvetica Neue,Helvetica,sans-serif;
 	line-height: 20px;
 }
