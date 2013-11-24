@@ -8,6 +8,7 @@
 
 		<%= simple_form_for @pic do |f| %>
 			<%= f.input :lesson %>
+			<%= f.input :image, label: "Add your image" %>
 			<%= f.input :emotion, label: "How did you feel?", placeholder: 'Shitty,Decent,Awesome' %>
 			<%= f.input :learned, label: "What did you learn?", placeholder: 'HTML,CSS,Ruby,Rails,How to Read,ABCs'%>
 
